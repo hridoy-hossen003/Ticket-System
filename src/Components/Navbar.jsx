@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="md:navbar bg-base-100 shadow-sm md:px-10 py-3">
+      <div className="md:navbar bg-base-100 shadow-sm md:px-30 py-3">
         <div className="md:navbar-start md:grid flex justify-between flex-row-reverse">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,13 +28,13 @@ const Navbar = () => {
               className="menu menu-sm right-0 dropdown-content bg-base-100 rounded-box z-1 mt-3 w-25 p-2 shadow"
             >
               {["Home", "FAQ", "Changelog", "Blog", "Download", "Contact"].map(
-                (items) => (
-                  <li className="font-semibold mt-1">{items}</li>
+                (items , i) => (
+                  <li key={i} className="font-semibold mt-1">{items}</li>
                 ),
               )}
             </ul>
           </div>
-          <a className="btn btn-ghost md:text-2xl text-xl font-bold">CS - Ticket System</a>
+          <a className=" md:text-2xl text-xl font-bold">CS - Ticket System</a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="flex md:gap-8 md:me-8 gap-4 me-4">

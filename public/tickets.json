@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failure on Checkout",
+    "description": "User reports that the 'Complete Purchase' button spins indefinitely when using a Visa card.",
+    "customer": "Sarah Jenkins",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  },
+  {
+    "id": "#1003",
+    "title": "Typo in Documentation",
+    "description": "There is a misspelling in the API integration guide under the 'Authentication' section.",
+    "customer": "Mike Ross",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/16/2024"
+  },
+  {
+    "id": "#1004",
+    "title": "Feature Request: Dark Mode",
+    "description": "Customer is requesting a native dark mode for the web dashboard to reduce eye strain.",
+    "customer": "Emily Chen",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "1/16/2024"
+  },
+  {
+    "id": "#1005",
+    "title": "Dashboard Not Loading",
+    "description": "The main analytics dashboard returns a 500 error for this specific user account.",
+    "customer": "David Miller",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/16/2024"
+  },
+  {
+    "id": "#1007",
+    "title": "Broken Image Links",
+    "description": "Several product images on the landing page are appearing as broken icons in Safari.",
+    "customer": "Alex Thompson",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/17/2024"
+  },
+  {
+    "id": "#1008",
+    "title": "Export Data Hangs",
+    "description": "Attempting to export a CSV of the last 30 days of logs causes the browser to freeze.",
+    "customer": "Robert Fox",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "1/18/2024"
+  },
+  {
+    "id": "#1009",
+    "title": "Bulk Upload Error",
+    "description": "User is getting a 'Format Not Recognized' error when uploading a standard .xlsx file.",
+    "customer": "Amanda Choi",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "1/18/2024"
+  },
+  {
+    "id": "#1011",
+    "title": "Mobile App Crashing",
+    "description": "App crashes immediately upon opening on iOS 17.2. Affecting multiple users in the region.",
+    "customer": "Jessica Wu",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/19/2024"
+  },
+  {
+    "id": "#1012",
+    "title": "API Rate Limit Question",
+    "description": "Customer needs clarification on the specific rate limits for the /search endpoint.",
+    "customer": "Steven Green",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/20/2024"
+  }
+]
