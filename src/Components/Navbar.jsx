@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="md:navbar bg-base-100 shadow-sm md:px-30 py-3">
+      <div className="md:navbar bg-base-100 shadow-sm px-4 md:px-30 py-3">
         <div className="md:navbar-start md:grid flex justify-between flex-row-reverse">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

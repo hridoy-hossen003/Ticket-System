@@ -16,13 +16,13 @@ const Ticket = ({ ticket, handleProgress}) => {
         onClick={() => {
           handleProgress(ticket , id);
         }}
-        className={`bg-white  rounded-sm p-4  cursor-pointer `}
+        className={`bg-white  rounded-sm p-4  cursor-pointer m-4 md:m-auto `}
       >
-        <div className="flex justify-between items-center">
-          <h2 className="text-xl font-semibold">{title}</h2>
+        <div className="flex md:justify-between md:flex-row flex-col-reverse md:items-center">
+          <h2 className="text-xl font-semibold md:mt-auto mt-4">{title}</h2>
           <a
             href=""
-            className={`btn ${status == "Open" ? "bg-green-400" : "bg-yellow-400"} rounded-3xl`}
+            className={`btn ${status == "Open" ? "bg-green-400" : "bg-yellow-400"} rounded-3xl w-fit`}
           >
             {" "}
             <i
@@ -31,10 +31,10 @@ const Ticket = ({ ticket, handleProgress}) => {
             {status}
           </a>
         </div>
-        <div>
+        <div className="mt-1 md:mt-auto">
           <p className="text-gray-700 py-2">{description}</p>
         </div>
-        <div className="flex justify-between gap-4 items-center">
+        <div className="flex md:justify-between md:flex-row flex-col gap-4 md:items-center items-start mt-4 md:mt-auto" >
           <div className="gap-4 flex ">
             <span>{id}</span>
             <span

@@ -2,7 +2,7 @@ import img1 from "../assets/vector1.png";
 import img2 from "../assets/vector3.png";
 const TicketOverview = ({ resolved, progress }) => {
   return (
-    <div className="grid  grid-cols-2 max-w-7xl mx-auto gap-10 mt-18">
+    <div className="grid  md:grid-cols-2 max-w-7xl md:mx-auto mx-4 md:gap-10 space-y-6 mt-18">
       <div className="bg-gradient-to-l relative from-purple-500 to-indigo-600 h-60 rounded-lg grid justify-center items-center">
         <img className="absolute left-0" src={img1} alt="" />
         <div className="grid justify-center items-center text-center">

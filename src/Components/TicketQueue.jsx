@@ -13,9 +13,8 @@ const TicketQueue = ({
 }) => {
   return (
     <div className="md:mt-30">
-     
-      <div className="grid grid-cols-4 max-w-7xl mx-auto ">
-        <div className=" col-span-3 flex items-start justify-center">
+      <div className="grid md:grid-cols-4 max-w-7xl mx-auto ">
+        <div className=" md:col-span-3 flex items-start justify-center">
           <Suspense
             fallback={
               <span className="loading loading-infinity loading-xl"></span>
@@ -29,11 +28,13 @@ const TicketQueue = ({
           </Suspense>
         </div>
 
-        <TaskManager
-          resolvedTask={resolvedTask}
-          handleComplete={handleComplete}
-          task={task}
-        ></TaskManager>
+        <div>
+          <TaskManager
+            resolvedTask={resolvedTask}
+            handleComplete={handleComplete}
+            task={task}
+          ></TaskManager>
+        </div>
       </div>
     </div>
   );
